@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keyword Research Tool</title>
+  <script src="/js/script.js" defer></script>
+  <style>
+    /* Basic styling */
+    #submit-button:disabled {
+      background-color: #ccc;
+    }
+    #result {
+      white-space: pre-wrap;
+      margin-top: 20px;
+    }
+    input {
+      display: block;
+      margin: 10px 0;
+    }
+    .error {
+      color: red;
+    }
+    .example {
+      color: gray;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Keyword Research Tool</h1>
+  <p>Enter keywords, location code, and language code to perform keyword research.</p>
+  <input type="text" id="keywords-input" placeholder="Enter Keywords (comma-separated, e.g., keyword research, SEO tools)" />
+  <input type="text" id="location-code-input" placeholder="Enter Location Code (e.g., 2840 for United States)" />
+  <input type="text" id="language-code-input" placeholder="Enter Language Code (e.g., en for English)" />
+  <button id="submit-button" disabled>Submit</button>
+  <div id="result"></div>
+</body>
+</html>
