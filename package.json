@@ -1,0 +1,11 @@
+{
+  "name": "keyword-research-app",
+  "version": "1.0.0",
+  "description": "Keyword Research Tool powered by DataForSEO API",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
